@@ -1,0 +1,342 @@
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+:root {
+    --bg-color: #f8f9fa;
+    --card-bg: #ffffff;
+    --text-primary: #1a202c;
+    --text-secondary: #718096;
+    --accent-color: #2d3748;
+    --border-color: #e2e8f0;
+    --hover-bg: #edf2f7;
+    --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+
+    /* Speakers */
+    --gabriel-color: #e3f2fd;
+    --gabriel-text: #1565c0;
+    --orian-color: #e8f5e9;
+    --orian-text: #2e7d32;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    line-height: 1.6;
+    min-height: 100vh;
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    background: var(--bg-color);
+}
+
+/* Utilities */
+.hidden {
+    display: none !important;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.025em;
+}
+
+.subtitle {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    font-weight: 400;
+}
+
+/* Info Grid */
+.info-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+    background: var(--card-bg);
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-sm);
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-secondary);
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+}
+
+.info-value {
+    font-size: 0.95rem;
+    color: var(--text-primary);
+    font-weight: 500;
+}
+
+/* Slides List */
+.slides-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.slide-item {
+    display: flex;
+    align-items: center;
+    background: var(--card-bg);
+    padding: 1rem 1.5rem;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+    text-decoration: none;
+    color: var(--text-primary);
+    transition: all 0.2s ease;
+}
+
+.slide-item:hover {
+    border-color: var(--text-secondary);
+    background-color: var(--hover-bg);
+    transform: translateX(4px);
+    box-shadow: var(--shadow-sm);
+}
+
+.slide-number {
+    font-family: 'Inter', monospace;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-right: 1.5rem;
+    min-width: 24px;
+    text-align: right;
+}
+
+.slide-title {
+    font-weight: 500;
+    font-size: 1rem;
+    flex-grow: 1;
+}
+
+.arrow-icon {
+    opacity: 0;
+    color: var(--text-secondary);
+    transition: opacity 0.2s ease;
+}
+
+.slide-item:hover .arrow-icon {
+    opacity: 1;
+}
+
+/* Footer Section */
+.footer-timing {
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    border-top: 1px solid var(--border-color);
+    padding-top: 2rem;
+}
+
+/* --- DETAIL VIEW STYLES --- */
+
+.back-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    transition: color 0.2s;
+    font-family: inherit;
+}
+
+.back-button:hover {
+    color: var(--text-primary);
+}
+
+.slide-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.slide-number-badge {
+    background: var(--text-primary);
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    margin-right: 1rem;
+    font-size: 1.1rem;
+}
+
+.slide-header h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.content-grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.content-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: var(--shadow-sm);
+}
+
+.content-card h3 {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.5rem;
+}
+
+/* Specific Card Styles */
+.canva-card ul {
+    list-style-position: inside;
+    margin-top: 0.5rem;
+}
+
+.canva-card li {
+    margin-bottom: 0.25rem;
+}
+
+.visuals-hint {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    font-style: italic;
+    color: var(--text-secondary);
+    background: #f1f5f9;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+.subtitle-text {
+    font-weight: 500;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+}
+
+.speech-block {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 6px;
+    border-left: 4px solid transparent;
+}
+
+.gabriel-block {
+    background-color: var(--gabriel-color);
+    border-left-color: var(--gabriel-text);
+}
+
+.orian-block {
+    background-color: var(--orian-color);
+    border-left-color: var(--orian-text);
+}
+
+.speaker-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+    text-transform: uppercase;
+}
+
+.gabriel-block .speaker-label {
+    color: var(--gabriel-text);
+}
+
+.orian-block .speaker-label {
+    color: var(--orian-text);
+}
+
+.vocab-card ul {
+    list-style: none;
+}
+
+.vocab-card li {
+    background: var(--hover-bg);
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+}
+
+.timing-badge {
+    margin-top: 2rem;
+    text-align: center;
+    background: #fff3cd;
+    color: #856404;
+    padding: 0.75rem;
+    border-radius: 6px;
+    font-weight: 600;
+    display: inline-block;
+    width: 100%;
+}
+
+.empty-state {
+    color: var(--text-secondary);
+    font-style: italic;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .container {
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    .info-section {
+        grid-template-columns: 1fr;
+        padding: 1.5rem;
+    }
+
+    .slide-header h2 {
+        font-size: 1.5rem;
+    }
+}

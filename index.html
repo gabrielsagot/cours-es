@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Présentation Oral - Projet Tuteuré</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div id="menu-view">
+            <header>
+                <h1>Présentation Orale</h1>
+                <p class="subtitle">Demographic Models - Lycée Jean Macé × IUT Poitiers</p>
+            </header>
+
+            <section class="info-section">
+                <div class="info-item">
+                    <span class="info-label">Date</span>
+                    <span class="info-value">Lundi 12 Janvier 2026</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Heure</span>
+                    <span class="info-value">14h00 - 17h00</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Groupe</span>
+                    <span class="info-value">Gabriel & Orian</span>
+                </div>
+
+            </section>
+
+            <section class="slides-list">
+                <div onclick="showSlide(1)" class="slide-item clickable">
+                    <span class="slide-number">01</span>
+                    <span class="slide-title">TITLE SLIDE</span>
+                    <span class="arrow-icon">→</span>
+                </div>
+
+                <div onclick="showSlide(2)" class="slide-item clickable">
+                    <span class="slide-number">02</span>
+                    <span class="slide-title">SOMMAIRE / AGENDA</span>
+                    <span class="arrow-icon">→</span>
+                </div>
+
+                <div onclick="showSlide(3)" class="slide-item clickable">
+                    <span class="slide-number">03</span>
+                    <span class="slide-title">PROJECT CONTEXT</span>
+                    <span class="arrow-icon">→</span>
+                </div>
+
+                <div onclick="showSlide(4)" class="slide-item clickable">
+                    <span class="slide-number">04</span>
+                    <span class="slide-title">THE MISSION</span>
+                    <span class="arrow-icon">→</span>
+                </div>
+
+                <div onclick="showSlide(5)" class="slide-item clickable">
+                    <span class="slide-number">05</span>
+                    <span class="slide-title">TARGET AUDIENCE</span>
+                    <span class="arrow-icon">→</span>
+                </div>
+
+                <div onclick="showSlide(6)" class="slide-item clickable">
+                    <span class="slide-number">06</span>
+                    <span class="slide-title">PLANNING & SCHEDULE</span>
+                    <span class="arrow-icon">→</span>
+                </div>
+
+                <div onclick="showSlide(7)" class="slide-item clickable">
+                    <span class="slide-number">07</span>
+                    <span class="slide-title">ORGANIZATION (TRELLO) 🇫🇷</span>
+                    <span class="arrow-icon">→</span>
+                </div>
+
+                <div onclick="showSlide(8)" class="slide-item clickable">
+                    <span class="slide-number">08</span>
+                    <span class="slide-title">OUR APPROACH</span>
+                    <span class="arrow-icon">→</span>
+                </div>
+
+                <div onclick="showSlide(9)" class="slide-item clickable">
+                    <span class="slide-number">09</span>
+                    <span class="slide-title">TOOLS & METHODS</span>
+                    <span class="arrow-icon">→</span>
+                </div>
+
+                <div onclick="showSlide(10)" class="slide-item clickable">
+                    <span class="slide-number">10</span>
+                    <span class="slide-title">FIRST SESSION - RESULTS</span>
+                    <span class="arrow-icon">→</span>
+                </div>
+
+                <div onclick="showSlide(11)" class="slide-item clickable">
+                    <span class="slide-number">11</span>
+                    <span class="slide-title">WHAT WORKS / CHALLENGES</span>
+                    <span class="arrow-icon">→</span>
+                </div>
+
+                <div onclick="showSlide(12)" class="slide-item clickable">
+                    <span class="slide-number">12</span>
+                    <span class="slide-title">NEXT STEPS</span>
+                    <span class="arrow-icon">→</span>
+                </div>
+
+                <div onclick="showSlide(13)" class="slide-item clickable">
+                    <span class="slide-number">13</span>
+                    <span class="slide-title">CONCLUSION & THANK YOU</span>
+                    <span class="arrow-icon">→</span>
+                </div>
+            </section>
+
+            <div class="footer-timing">
+                Timing total estimé : ~13 minutes
+            </div>
+        </div>
+
+        <div id="slide-view" class="hidden">
+            <button onclick="showMenu()" class="back-button">← Retour au menu</button>
+            <div id="slide-content">
+                <!-- Content will be injected here by JS -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
