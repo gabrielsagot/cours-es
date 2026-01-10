@@ -49,13 +49,12 @@ const slidesData = [
                 "4. Planning & Schedule",
                 "5. Organization with Trello",
                 "6. Our Pedagogical Approach",
-                "7. Tools & Methods",
-                "8. First Session Results",
-                "9. Assessment & Challenges",
-                "10. Next Steps",
-                "11. Conclusion"
+                "7. First Session Results",
+                "8. Assessment & Challenges",
+                "9. Next Steps",
+                "10. Conclusion"
             ],
-            visuals: "• Icônes simples (🎯 Mission, 👥 Audience, 📅 Planning, etc.)<br>• Design épuré, liste verticale claire<br>• Numéro de slide '2/13' discret en bas"
+            visuals: "• Icônes simples (🎯 Mission, 👥 Audience, 📅 Planning, etc.)<br>• Design épuré, liste verticale claire<br>• Numéro de slide '2/12' discret en bas"
         },
         speech: {
             gabriel: "- Here is the outline of our presentation<br>- First, we will introduce the project context and explain who we are working with<br>- Then, we will detail our mission and the target audience",
@@ -291,41 +290,9 @@ const slidesData = [
         ],
         timing: "1 min 15 - 1 min 30"
     },
+
     {
         id: 9,
-        title: "TOOLS & METHODS",
-        canva: {
-            title: "Tools & Methods",
-            subtitle: "What tools do we use and why?",
-            content: [
-                "<strong>Digital Tools:</strong><br>• 📊 <strong>Data Viz:</strong> Python (Matplotlib/Seaborn), Excel<br><em>→ Why? Clear & attractive visual representations</em><br>• 💻 <strong>Presentation:</strong> PowerPoint / Interactive animations<br><em>→ Why? Maintain attention & facilitate understanding</em><br>• 📈 <strong>Sources:</strong> INSEE, World Bank, Eurostat<br><em>→ Why? Authentic & up-to-date data</em>",
-                "<strong>Physical Tools:</strong><br>• 📝 <strong>Activities:</strong> Worksheets, Case studies<br><em>→ Why? Encourage active participation</em><br>• 🎲 <strong>Interactive:</strong> Quizzes, Group challenges<br><em>→ Why? Make learning engaging & collaborative</em>",
-                "<strong>Communication:</strong><br>• 📧 Email & Trello (Coordination)"
-            ],
-            visuals: "• Logos outils (Python, Excel, PPT, INSEE, Trello)<br>• Capture d'écran graphique Python (pyramide)<br>• Photo feuille d'exercice<br>• Icônes catégories"
-        },
-        speech: {
-            gabriel: "- Now, let's talk about the specific tools and methods we use<br>- For data visualization, we use Python with libraries like Matplotlib and Seaborn, as well as Excel for simpler charts<br>- We chose these tools because they allow us to create clear and attractive visual representations that students can easily understand<br>- All our data comes from reliable sources like INSEE, which is the French National Institute of Statistics, the World Bank, and Eurostat<br>- Using real and up-to-date data makes the learning more relevant and credible",
-            orian: "- Beyond digital tools, we also prepare physical materials like worksheets and guided exercises<br>- These support active participation and help students work at their own pace<br>- We incorporate interactive elements such as quizzes, group discussions, and problem-solving challenges<br>- This makes learning more engaging and collaborative<br>- For project coordination, we use email to communicate with teachers at Lycée Jean Macé, and of course, Trello for task management<br>- Each tool has been carefully selected to serve our pedagogical objectives"
-        },
-        summary: "<strong>Gabriel :</strong> Parlons outils et méthodes. Visualisation de données via Python (Matplotlib/Seaborn) et Excel pour la clarté. Données issues de sources fiables (INSEE, Banque Mondiale) pour la crédibilité et la pertinence.<br><br><strong>Orian :</strong> Outils physiques (feuilles d'exercices) pour la participation active. Éléments interactifs (quiz, défis) pour l'engagement et la collaboration. Coordination via Email et Trello. Chaque outil est choisi pour servir nos objectifs pédagogiques.",
-        vocab: [
-            { en: "Now, let's talk about", fr: "Maintenant, parlons de" },
-            { en: "We use", fr: "Nous utilisons" },
-            { en: "We chose these tools because", fr: "Nous avons choisi ces outils car" },
-            { en: "Reliable sources", fr: "Sources fiables" },
-            { en: "Up-to-date data", fr: "Données à jour" },
-            { en: "Relevant / Credible", fr: "Pertinent / Crédible" },
-            { en: "Worksheets", fr: "Feuilles d'exercices" },
-            { en: "Active participation", fr: "Participation active" },
-            { en: "Interactive elements", fr: "Éléments interactifs" },
-            { en: "Engaging & Collaborative", fr: "Engageant & Collaboratif" },
-            { en: "Task management", fr: "Gestion des tâches" }
-        ],
-        timing: "1 min 30 - 1 min 45"
-    },
-    {
-        id: 10,
         title: "FIRST SESSION - RESULTS",
         canva: {
             title: "First Session - Results",
@@ -361,7 +328,7 @@ const slidesData = [
         timing: "1 min 15 - 1 min 30"
     },
     {
-        id: 11,
+        id: 10,
         title: "WHAT WORKS / CHALLENGES",
         canva: {
             title: "What Works & Challenges",
@@ -392,7 +359,7 @@ const slidesData = [
         timing: "1 min 30 - 1 min 45"
     },
     {
-        id: 12,
+        id: 11,
         title: "NEXT STEPS",
         canva: {
             title: "Next Steps",
@@ -428,7 +395,7 @@ const slidesData = [
         timing: "1 min 15 - 1 min 30"
     },
     {
-        id: 13,
+        id: 12,
         title: "CONCLUSION & THANK YOU",
         canva: {
             title: "Conclusion",
