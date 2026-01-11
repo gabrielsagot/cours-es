@@ -190,7 +190,47 @@ h1 {
 .slide-header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-bottom: 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: var(--bg-color);
+    padding: 1rem 0;
+    border-bottom: 1px solid transparent;
+    /* Prepare for potential transition or just keep it clean */
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.slide-nav {
+    display: flex;
+    gap: 0.75rem;
+}
+
+.nav-button {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--text-primary);
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.nav-button:hover {
+    background: var(--hover-bg);
+    border-color: var(--text-secondary);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-sm);
 }
 
 .slide-number-badge {

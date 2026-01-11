@@ -392,12 +392,23 @@ function showSlide(id) {
     const slide = slidesData.find(s => s.id === id);
     if (!slide) return;
 
+    // Find prev/next slides
+    const currentIndex = slidesData.findIndex(s => s.id === id);
+    const prevSlide = slidesData[currentIndex - 1];
+    const nextSlide = slidesData[currentIndex + 1];
+
     // Build Content dynamically
     const contentContainer = document.getElementById('slide-content');
     contentContainer.innerHTML = `
         <div class="slide-header">
-            <span class="slide-number-badge">${slide.id}</span>
-            <h2>${slide.title}</h2>
+            <div class="header-left">
+                <span class="slide-number-badge">${slide.id}</span>
+                <h2>${slide.title}</h2>
+            </div>
+            <div class="slide-nav">
+                ${prevSlide ? `<button onclick="showSlide(${prevSlide.id})" class="nav-button">← Préc.</button>` : ''}
+                ${nextSlide ? `<button onclick="showSlide(${nextSlide.id})" class="nav-button">Suiv. →</button>` : ''}
+            </div>
         </div>
 
         <div class="content-grid">
