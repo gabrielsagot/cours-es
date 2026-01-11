@@ -50,17 +50,16 @@ const slidesData = [
                 "5. Organization with Trello",
                 "6. Our Pedagogical Approach",
                 "7. First Session Results",
-                "8. Assessment & Challenges",
-                "9. Next Steps",
-                "10. Conclusion"
+                "8. What Works / Challenges",
+                "9. Conclusion"
             ],
-            visuals: "• Icônes simples (🎯 Mission, 👥 Audience, 📅 Planning, etc.)<br>• Design épuré, liste verticale claire<br>• Numéro de slide '2/12' discret en bas"
+            visuals: "• Icônes simples (🎯 Mission, 👥 Audience, 📅 Planning, etc.)<br>• Design épuré, liste verticale claire<br>• Numéro de slide '2/11' discret en bas"
         },
         speech: {
             gabriel: "- Here is the outline of our presentation<br>- First, we will introduce the project context and explain who we are working with<br>- Then, we will detail our mission and the target audience",
-            orian: "- We will show you our planning and how we organized our work with Trello<br>- After that, we will present our pedagogical approach and the tools we chose<br>- Finally, we will share the results of our first session, the challenges we faced, and our next steps"
+            orian: "- We will show you our planning and how we organized our work with Trello<br>- After that, we will present our pedagogical approach and the tools we chose<br>- Finally, we will share the results of our first session, the challenges we faced, and our conclusion"
         },
-        summary: "<strong>Gabriel :</strong> Voici le plan de notre présentation. D'abord, nous introduirons le contexte du projet et expliquerons avec qui nous travaillons. Ensuite, nous détaillerons notre mission et le public cible.<br><br><strong>Orian :</strong> Nous vous montrerons notre planning et comment nous avons organisé notre travail avec Trello. Après cela, nous présenterons notre démarche pédagogique et les outils que nous avons choisis. Finalement, nous partagerons les résultats de notre première session, les défis rencontrés, et nos prochaines étapes.",
+        summary: "<strong>Gabriel :</strong> Voici le plan de notre présentation. D'abord, nous introduirons le contexte du projet et expliquerons avec qui nous travaillons. Ensuite, nous détaillerons notre mission et le public cible.<br><br><strong>Orian :</strong> Nous vous montrerons notre planning et comment nous avons organisé notre travail avec Trello. Après cela, nous présenterons notre démarche pédagogique et les outils que nous avons choisis. Finalement, nous partagerons les résultats de notre première session, les défis rencontrés, et notre conclusion.",
         vocab: [
             { en: "Here is the outline of our presentation", fr: "Voici le plan de notre présentation" },
             { en: "We will introduce", fr: "Nous allons présenter" },
@@ -296,106 +295,65 @@ const slidesData = [
         title: "FIRST SESSION - RESULTS",
         canva: {
             title: "First Session - Results",
-            subtitle: "What we accomplished with the first group",
+            subtitle: "08/01/26 • Objective: ~35 Slides/session",
             content: [
-                "<strong>Session Details:</strong><br>• Date: [Date]<br>• Duration: 1 hour<br>• Students: 16 (half class)<br>• Location: Lycée Jean Macé",
-                "<strong>Topics Covered:</strong><br>• Intro to demographic concepts<br>• Birth/Death rates & Population models<br>• Analysis of France's population pyramid",
-                "<strong>Activities Completed ✅:</strong><br>• Interactive Q&A<br>• Comparison exercise (France vs others)<br>• Group discussions on trends",
-                "<strong>Student Engagement:</strong><br>• Active participation & Relevant questions<br>• Good understanding of concepts<br>• Positive feedback"
+                "<strong>Session Details:</strong><br>• Date: 08/01/26 (2x 1h, Half groups)<br>• <strong>Goal Met:</strong> 44 slides covered (Target: ~35)",
+                "<strong>Part 1: Intro & Context (Slides 1-8):</strong><br>• Presentation, Definition, Current Issues",
+                "<strong>Part 2: Demography Basics (Slides 9-20):</strong><br>• Population factors (Births, Deaths, Migrations)<br>• Real data analysis (France, World)",
+                "<strong>Part 3: Observation (Slides 21-30):</strong><br>• Linear vs Exponential evolution<br>• Absolute & Relative variations",
+                "<strong>Part 4: Linear Model (Slides 31-44):</strong><br>• Arithmetic Sequences (Definition, Formula)<br>• Guided Examples (Calculations)"
             ],
-            visuals: "• <strong>Preuves concrètes :</strong> Photos de la session, Pyramide étudiée, Feuille d'exercice complétée par un élève, Citation élève/prof"
+            visuals: "• Photo de la classe pendant le cours (si dispo)<br>• Capture des slides clés (ex: Slide 44 Graphique)<br>• Indicateur de progression (44/35)"
         },
         speech: {
-            gabriel: "- Let me show you what we accomplished during our first teaching session<br>- This session took place [date] with sixteen students and lasted one hour<br>- We covered fundamental demographic concepts, starting with the definition of a population model<br>- We introduced key indicators such as birth rates and death rates, and we began working with population pyramids",
-            orian: "- During this session, students analyzed France's population pyramid and compared it with pyramids from other countries<br>- We organized group discussions about current demographic trends<br>- The engagement was very positive: students actively participated, asked many relevant questions, and showed good understanding of the basic concepts<br>- The feedback we received from both students and their teacher was encouraging<br>- This first session validated our pedagogical approach and gave us valuable insights for improving the upcoming sessions"
+            gabriel: "- The first sessions on January 8th went very well<br>- We worked with two half-groups of sixteen students for one hour each<br>- Our pacing objective was to cover about thirty-five slides per session<br>- We comfortably exceeded this target by covering forty-four slides, reaching the end of our guided examples on the linear model",
+            orian: "- We covered Part 1 (Introduction) and Part 2 (Demography Basics) where we defined key concepts like birth and death rates<br>- Then in Part 3, we observed concrete data evolutions and introduced absolute and relative variations<br>- Finally, we started Part 4 on the Linear Model, explaining arithmetic sequences and doing step-by-step calculations with the students<br>- The students were very attentive and the engagement level was high throughout all four parts"
         },
-        summary: "<strong>Gabriel :</strong> Voici ce que nous avons accompli lors de la première session (1h, 16 élèves). Concepts fondamentaux couverts : modèles de population, taux natalité/mortalité, pyramides des âges.<br><br><strong>Orian :</strong> Analyse de la pyramide de la France et comparaisons. Discussions de groupe. Engagement très positif (questions pertinentes, bonne compréhension). Retours encourageants des élèves/profs. Cette session a validé notre approche et donné des pistes d'amélioration.",
+        summary: "<strong>Gabriel :</strong> Session du 08/01 réussie (2x 1h). Objectif d'avancée (35 slides) atteint et dépassé (44 slides faits).<br><br><strong>Orian :</strong> Contenu couvert : P1 Intro, P2 Bases Démographie (Facteurs), P3 Observations (Variations), P4 Modèle Linéaire (Suite Arithmétique & Exemples jusqu'à slide 44). Élèves à l'écoute.",
         vocab: [
-            { en: "Let me show you", fr: "Laissez-moi vous montrer" },
-            { en: "What we accomplished", fr: "Ce que nous avons accompli" },
+            { en: "Pacing objective", fr: "Objectif de rythme/d'avancée" },
+            { en: "Comfortably exceeded", fr: "Largement dépassé" },
             { en: "We covered", fr: "Nous avons couvert" },
-            { en: "Birth/Death rates", fr: "Taux de natalité/mortalité" },
-            { en: "Key indicators", fr: "Indicateurs clés" },
-            { en: "Comparison exercise", fr: "Exercice de comparaison" },
-            { en: "Demographic trends", fr: "Tendances démographiques" },
-            { en: "Student engagement", fr: "Engagement des élèves" },
-            { en: "Active participation", fr: "Participation active" },
-            { en: "Relevant questions", fr: "Questions pertinentes" },
-            { en: "Positive feedback", fr: "Retours positifs" },
-            { en: "Valuable insights", fr: "Enseignements précieux" },
-            { en: "Validated our approach", fr: "A validé notre approche" }
+            { en: "Demography Basics", fr: "Bases de la démographie" },
+            { en: "Arithmetic sequences", fr: "Suites arithmétiques" },
+            { en: "Step-by-step calculations", fr: "Calculs étape par étape" },
+            { en: "Attentive", fr: "Attentif" },
+            { en: "Linear Model", fr: "Modèle linéaire" },
+            { en: "Guided examples", fr: "Exemples guidés" }
         ],
-        timing: "1 min 15 - 1 min 30"
+        timing: "1 min 30"
     },
     {
         id: 10,
         title: "WHAT WORKS / CHALLENGES",
         canva: {
             title: "What Works & Challenges",
-            subtitle: "Technical assessment and lessons learned",
+            subtitle: "Assessment after the first session",
             content: [
-                "<strong>✅ What Works Well:</strong><br>• <strong>Technical:</strong> Visual approach, Real data (Python visuals clear)<br>• <strong>Pedagogical:</strong> Progressive introduction, Small group interaction<br>• <strong>Organization:</strong> Communication with Lycée, Trello tracking",
-                "<strong>⚠️ Challenges Encountered:</strong><br>• <strong>Technical:</strong> Heterogeneous levels, Time limits<br>• <strong>Logistical:</strong> Schedules coordination, Transportation<br>• <strong>Pedagogical:</strong> Balancing simplification/rigor",
-                "<strong>💡 Solutions Implemented:</strong><br>• Differentiated activities<br>• More visuals, less text"
+                "<strong>✅ What Works Well:</strong><br>• <strong>Pacing:</strong> 38 slides covered (Target: ~35)<br>• <strong>Comprehension:</strong> Students take notes & understand keywords<br>• <strong>Presentation:</strong> We feel comfortable speaking",
+                "<strong>⚠️ Areas for Improvement:</strong><br>• <strong>Whiteboard Usage:</strong> MUST use it for notes & exercises<br>• <strong>Mobility:</strong> Occupy the space, move around the class",
+                "<strong>💡 Action Plan:</strong><br>• Force ourselves to write on the board<br>• Step away from the computer/screen"
             ],
-            visuals: "• Deux colonnes (Vert vs Orange)<br>• Icônes ✅ et ⚠️<br>• Graphique évolution (optionnel)"
+            visuals: "• Photo de nous au tableau (idéalement)<br>• Icône Tableau blanc + Crayon<br>• Schéma de déplacement dans la classe"
         },
         speech: {
-            gabriel: "- After our first session, we conducted a thorough assessment of what works and what challenges we face<br>- On the positive side, our visual approach using Python and real data is very effective<br>- Students quickly understood how to read population pyramids and showed genuine interest in real-world demographic trends<br>- The small group format facilitated interaction, and group activities promoted collaboration<br>- Our communication with Lycée Jean Macé has been excellent, and Trello helps us stay organized",
-            orian: "- However, we have also encountered several challenges<br>- The main technical challenge is the heterogeneous level of students, which requires constant adaptation of our content<br>- Some students struggle with statistical interpretation, and the one-hour format limits how deeply we can explore each concept<br>- Logistically, coordinating schedules between the university and the high school is complex, and transportation to Niort takes time<br>- To address these challenges, we have created differentiated activities for different skill levels and increased our use of visual supports while reducing text-heavy content<br>- These adjustments will be implemented in the remaining sessions"
+            gabriel: "- Regarding what works, we are very satisfied with the pacing<br>- We planned about thirty-five slides per session and managed to cover thirty-eight, so we are on track<br>- We also noticed that students seem to understand well; they are attentive and take notes of the key concepts we highlight<br>- Personally, we feel quite comfortable and at ease standing in front of the class",
+            orian: "- However, there are two major points we absolutely need to improve<br>- First, we must use the whiteboard more effectively to write down key terms and solve exercises with them, instead of just relying on the screen<br>- Second, we need to work on our mobility<br>- We tend to stay too close to the computer, so we need to occupy the space and move around the classroom to engage students better"
         },
-        summary: "<strong>Gabriel :</strong> Évaluation post-session 1. Positif : Approche visuelle (Python/Data) efficace. Intérêt réel des élèves. Petits groupes favorisent l'interaction. Bonne communication/organisation (Trello).<br><br><strong>Orian :</strong> Défis : Niveau hétérogène (adaptation nécessaire). Difficultés statistiques chez certains. Format 1h court. Logistique (Transport/Emploi du temps). Solutions : Activités différenciées, plus de visuels, ajustements pour les prochaines sessions.",
+        summary: "<strong>Gabriel :</strong> Ce qui marche : Avancée (38 slides faits vs 35 prévus). Compréhension (élèves notent les mots-clés). Aisance à l'oral (on est confortables).<br><br><strong>Orian :</strong> À améliorer impérativement : Utiliser le TABLEAU (noter/exos). MOBILITÉ (occuper l'espace, bouger dans la classe, ne pas rester collés au PC).",
         vocab: [
-            { en: "Thorough assessment", fr: "Évaluation approfondie" },
-            { en: "Genuine interest", fr: "Intérêt réel" },
-            { en: "Promoted collaboration", fr: "A favorisé la collaboration" },
-            { en: "Heterogeneous level", fr: "Niveau hétérogène" },
-            { en: "Constant adaptation", fr: "Adaptation constante" },
-            { en: "Logistically", fr: "Logistiquement" },
-            { en: "Coordinating schedules", fr: "Coordonner les emplois du temps" },
-            { en: "To address these challenges", fr: "Pour relever ces défis" },
-            { en: "Differentiated activities", fr: "Activités différenciées" }
+            { en: "We are on track", fr: "Nous sommes dans les temps" },
+            { en: "To take notes", fr: "Prendre des notes" },
+            { en: "At ease", fr: "À l'aise" },
+            { en: "Whiteboard", fr: "Tableau blanc" },
+            { en: "Instead of relying on", fr: "Au lieu de se reposer sur" },
+            { en: "Mobility", fr: "Mobilité" },
+            { en: "Occupy the space", fr: "Occuper l'espace" }
         ],
-        timing: "1 min 30 - 1 min 45"
+        timing: "1 min 30"
     },
     {
         id: 11,
-        title: "NEXT STEPS",
-        canva: {
-            title: "Next Steps",
-            subtitle: "What remains to be done",
-            content: [
-                "<strong>Immediate (Jan 2026):</strong><br>• Session 2 (Small Group) 📋<br><em>Improvements based on feedback</em>",
-                "<strong>Short-Term (Late Jan/Feb):</strong><br>• Sessions 3 & 4 (Full Class) 📋<br><em>Challenge: Managing engagement</em>",
-                "<strong>Final Step (Feb 2026):</strong><br>• IUT Discovery Day 🎓<br><em>Campus tour, Career paths, Final teaching</em>",
-                "<strong>Post-Project:</strong><br>• Final evaluation, Feedback, Report"
-            ],
-            visuals: "• Timeline (Jan-Feb)<br>• Icônes calendrier<br>• Photo Campus IUT Poitiers<br>• Checklist progression"
-        },
-        speech: {
-            gabriel: "- Looking ahead, we have three major teaching sessions remaining<br>- Our immediate next step is Session 2 with the second group of sixteen students<br>- We will cover the same fundamental topics as in Session 1, but with the improvements we identified after our first experience<br>- Then, in late January or early February, we will conduct two sessions with the entire class of thirty-two students<br>- This will be more challenging as we need to manage a larger group while maintaining high engagement levels",
-            orian: "- The final and most exciting step will be welcoming all students to IUT Poitiers for a two-hour session in February<br>- This visit serves multiple purposes: we will finalize the teaching of demographic models, but we will also give students a tour of our campus and facilities<br>- We want to show them what studying Data Science looks like and present potential career paths in this field<br>- After the project concludes, we will collect comprehensive feedback from students and teachers, complete our final report, and reflect on the professional skills we have developed throughout this experience<br>- We are confident that each remaining session will benefit from the lessons we learned in Session 1"
-        },
-        summary: "<strong>Gabriel :</strong> Suite du projet. Immédiat : Session 2 (2ème groupe) avec améliorations. Court terme : Sessions 3 & 4 (Classe entière), défi de gestion de groupe.<br><br><strong>Orian :</strong> Étape finale : Visite IUT (2h, Février). Finalisation cours + Visite campus + Orientation. Post-projet : Retours, Rapport final, Réflexion compétences. Confiance grâce aux acquis de la session 1.",
-        vocab: [
-            { en: "Looking ahead", fr: "En regardant vers l'avenir" },
-            { en: "Immediate next step", fr: "Prochaine étape immédiate" },
-            { en: "To cover topics", fr: "Couvrir des sujets" },
-            { en: "Improvements identified", fr: "Améliorations identifiées" },
-            { en: "Challenging", fr: "Difficile / Challengeant" },
-            { en: "Maintaining engagement", fr: "Maintenir l'engagement" },
-            { en: "Welcoming", fr: "Accueillir" },
-            { en: "Serves multiple purposes", fr: "Sert plusieurs objectifs" },
-            { en: "Campus tour", fr: "Visite du campus" },
-            { en: "Career paths", fr: "Parcours de carrière" },
-            { en: "Comprehensive feedback", fr: "Retours complets" },
-            { en: "To reflect on", fr: "Réfléchir sur" },
-            { en: "Lessons learned", fr: "Leçons apprises" }
-        ],
-        timing: "1 min 15 - 1 min 30"
-    },
-    {
-        id: 12,
         title: "CONCLUSION & THANK YOU",
         canva: {
             title: "Conclusion",
@@ -426,7 +384,7 @@ const slidesData = [
             { en: "We are now ready", fr: "Nous sommes maintenant prêts" }
         ],
         timing: "1 min - 1 min 15"
-    },
+    }
 ];
 
 // Navigation Logic
